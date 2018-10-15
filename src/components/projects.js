@@ -1,8 +1,9 @@
 import React from 'react';
+import '../css/projects.css';
 
 export default function Projects (props){
   return(
-    <div>
+    <div className='projects'>
       <h2>Project 1</h2>  
       <p>Filler Text1</p>  
       <h2>Project 2</h2>  

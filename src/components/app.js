@@ -5,7 +5,7 @@ import About from './about';
 import Projects from './projects';
 import HeaderBar from './header-bar';
 import Contact from './contact';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import '../css/app.css';
 
 class App extends React.Component {
