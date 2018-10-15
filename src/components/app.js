@@ -14,8 +14,8 @@ class App extends React.Component {
       <div className="App">
         <HeaderBar/>
         <Route exact path='/' component={MainPage}/>
-        <Route exact path='/about' component={About}/>
-        <Route exact path='/projects' component={Projects}/>
+        {/* <Route exact path='/about' component={About}/>
+        <Route exact path='/projects' component={Projects}/> */}
         <Route exact path='/contact' component={Contact}/>
       </div>
     );
