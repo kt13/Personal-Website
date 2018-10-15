@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {Route, withRouter} from 'react-router-dom';
 import MainPage from './main-page';
 import About from './about';
@@ -8,7 +8,7 @@ import Contact from './contact';
 import logo from './logo.svg';
 import '../css/app.css';
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <div className="App">
