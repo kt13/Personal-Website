@@ -6,6 +6,12 @@ nav {
 }
 .ul-left {
   display: flex;
+  padding: 10px;
+}
+
+.about, .projects, .contact{
+  padding: 10px;
+  border-radius: 5%;
 }
 
 .nav-box{

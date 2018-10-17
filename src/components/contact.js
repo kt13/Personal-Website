@@ -13,21 +13,21 @@ export default function Contact (props){
           src={emailImgUrl}
           height='61.25'
           width='70'>
-        </img><span>ketsang12@gmail.com</span>
+        </img><span className='contact-span'>ketsang12@gmail.com</span>
       </div>
       <div className='github'>
         <img 
           src={require('../pictures/GitHub.png')}
           height='61.25'
           width='70'>
-        </img><span>kt13</span>
+        </img><span className='contact-span'>kt13</span>
       </div>
       <div className='linkedin'>
         <img 
           src={linkedInImgUrl}
           height='61.25'
           width='70'>
-        </img><span>kevintsang1</span>
+        </img><span className='contact-span'>kevintsang1</span>
       </div>
     </div>
   );
