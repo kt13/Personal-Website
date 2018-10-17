@@ -4,9 +4,9 @@ import Projects from './projects';
 import Contact from './contact';
 import {connect} from 'react-redux';
 import '../css/main-page.css';
-import {Link} from 'react-router-dom';
-import {directToProjects} from '../actions/header-bar';
-import Scroll from 'react-scroll-to-element';
+// import {Link} from 'react-router-dom';
+// import {directToProjects} from '../actions/header-bar';
+// import Scroll from 'react-scroll-to-element';
 // import '../css/header-bar.css';
 
 export class MainPage extends React.Component{
