@@ -4,8 +4,13 @@ nav {
   padding: 1em;
   font-family: 'Lora', serif;
 }
-.clearfix {
-  display: inline;
+.ul-left {
+  display: flex;
+}
+
+.nav-box{
+  display: flex;
+  justify-content: space-between;
 }
 
 nav ul li {
@@ -15,11 +20,12 @@ nav ul li {
 }
 
 .nav-left {
-	float: left;
+  flex-wrap: wrap;
+  display: flex;
 }
 
 .nav-right {
-	float: right;
+  justify-content: flex-end;
 }
 
 nav a {
