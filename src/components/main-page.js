@@ -9,6 +9,15 @@ import '../css/main-page.css';
 // import Scroll from 'react-scroll-to-element';
 // import '../css/header-bar.css';
 
+
+//tasks to do tonight:
+//projects part done
+//about me info done
+//add in icons for things you know
+//more css
+//publish to heroku at least
+
+
 export class MainPage extends React.Component{
 
   render(){

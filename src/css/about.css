@@ -1,9 +1,9 @@
 .about-me p {
   margin: auto;
-  max-width: 50vw;
+  max-width: 60vw;
 }
 
 h1, h2 {
   text-align: left;
-  padding-left: 80px;
+  padding-left: 90px;
 }
