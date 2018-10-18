@@ -1,7 +1,11 @@
 .contact-span{
-  padding: 20px;
+  padding-left: 20px;
 }
 
 img {
   vertical-align: middle;
+}
+
+.contact-links{
+  padding: 10px;
 }

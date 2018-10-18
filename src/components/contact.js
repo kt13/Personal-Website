@@ -7,22 +7,22 @@ export default function Contact (props){
   const linkedInImgUrl = 'https://upload.wikimedia.org/wikipedia/commons/'+
   'thumb/c/ca/LinkedIn_logo_initials.png/240px-LinkedIn_logo_initials.png';
   return(
-    <div className='contact' id='contact'>
-      <div className='email'>
+    <div className='contact-content' id='contact'>
+      <div className='email contact-links'>
         <img 
           src={emailImgUrl}
           height='61.25'
           width='70'>
         </img><span className='contact-span'>ketsang12@gmail.com</span>
       </div>
-      <div className='github'>
+      <div className='github contact-links'>
         <img 
           src={require('../pictures/GitHub.png')}
           height='61.25'
           width='70'>
         </img><span className='contact-span'>kt13</span>
       </div>
-      <div className='linkedin'>
+      <div className='linkedin contact-links'>
         <img 
           src={linkedInImgUrl}
           height='61.25'
