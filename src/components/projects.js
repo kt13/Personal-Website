@@ -12,13 +12,19 @@ export default function Projects (props){
             <p>React, Redux, MongoDB, NodeJS, Express, Mocha/Chai, Enzyme/Jest </p>
             <p>A mood-music app to personalize the way a person experiences their current, local weather.</p> 
             <div className='links'>
-              <a href='https://weatherfm-client.herokuapp.com/' 
+              <a 
+                className='project-link'
+                href='https://weatherfm-client.herokuapp.com/' 
                 target='_blank'
                 rel="noopener noreferrer">Live</a>
-              <a href='https://github.com/thinkful-ei22/WeatherFM-Client-PurpleCobras' 
+              <a 
+                className='project-link'
+                href='https://github.com/thinkful-ei22/WeatherFM-Client-PurpleCobras' 
                 target='_blank'
                 rel="noopener noreferrer">Client-Side Repository</a>
-              <a href='https://github.com/thinkful-ei22/WeatherFM-Backend-PurpleCobras' 
+              <a 
+                className='project-link'
+                href='https://github.com/thinkful-ei22/WeatherFM-Backend-PurpleCobras' 
                 target='_blank'
                 rel="noopener noreferrer">Server-Side Repository</a>
             </div>
@@ -27,8 +33,8 @@ export default function Projects (props){
             className='project-img' 
             src={png} 
             alt='WeatherFM Landing Page'
-            height='300' 
-            width='400'></img>
+            height='330' 
+            width='450'></img>
         </div>
       </div>
        

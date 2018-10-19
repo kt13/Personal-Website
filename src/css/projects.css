@@ -26,3 +26,14 @@
 .content-box{
   border: 1px solid black;
 }
+
+.project-link {
+  font-family: 'Alegreya SC', serif;
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
+}
+
+.project-link:hover{
+  background-color: grey;
+}
