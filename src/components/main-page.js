@@ -19,8 +19,13 @@ import '../css/main-page.css';
 
 
 export class MainPage extends React.Component{
+  
 
   render(){
+    const h1First = 'Kevin Tsang = {';
+    const h1Second = '};';
+    const logoStacks1 = ' title: Full-Stack Developer,';
+    const logoStacks2 = 'technologies: [MongoDB, Express, React, NodeJS, Postgres QL, Python]';
     return(
       <div>
         {/*  <div className='links'>
@@ -58,10 +63,13 @@ export class MainPage extends React.Component{
         </nav> */}
         <div className='main-page'>
           <div className='header-title'>
-            <h1 className='h1-main-page'>Kevin Tsang</h1>
-            <h3>Full-Stack Developer</h3>
+            <h1 className='h1-main-page-first'>{h1First}</h1>
+            <h2 className='h2-first'>{logoStacks1}</h2>
+            <h2 className='h2-second'>{logoStacks2}</h2>
+            <h1 className='h1-main-page-second'>{h1Second}</h1>
+            {/* <h3>Full-Stack Developer</h3> */}
           </div>
-          <h2 className='h2-main-page'>About</h2>
+          <h2 className='h2-main-page'>About Me</h2>
           <About />
           <h2 className='h2-main-page'>Projects</h2>
           <Projects />
