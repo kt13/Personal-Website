@@ -57,8 +57,15 @@ export class MainPage extends React.Component{
 
         </nav> */}
         <div className='main-page'>
+          <div className='header-title'>
+            <h1>Kevin Tsang</h1>
+            <h3>Full Stack Developer</h3>
+          </div>
+          <h2 className='h2-main-page'>About</h2>
           <About />
+          <h2 className='h2-main-page'>Projects</h2>
           <Projects />
+          <h2 className='h2-main-page'>Contact</h2>
           <Contact />
         </div>
       </div>

@@ -5,13 +5,12 @@ import png from '../pictures/frontpage.png';
 export default function Projects (props){
   return(
     <div className='projects-content' id='projects'>
-      <h2>Projects</h2>
       <div className='content-box'>
         <h3>WeatherFM</h3>  
         <div className='content'>
           <div className='float'>
             <p>React, Redux, MongoDB, NodeJS, Express, Mocha/Chai, Enzyme/Jest </p>
-            <p>A mood-music app to personalize the way a person experiences weather.</p> 
+            <p>A mood-music app to personalize the way a person experiences their current, local weather.</p> 
             <div className='links'>
               <a href='https://weatherfm-client.herokuapp.com/'>Live</a>
               <a href='https://github.com/thinkful-ei22/WeatherFM-Client-PurpleCobras'>Client-Side Repository</a>

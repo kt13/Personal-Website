@@ -1,6 +1,7 @@
 .projects-content {
   margin: auto;
-  max-width: 75vw;
+  max-width: 65vw;
+  padding: 20px;
 }
 
 .float {
