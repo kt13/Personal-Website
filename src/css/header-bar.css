@@ -19,7 +19,7 @@ nav {
   margin-bottom: 0px;
 }
 
-.about, .projects, .contact{
+.about, .projects, .contact, .resume{
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
@@ -32,6 +32,7 @@ nav {
   justify-content: space-between;
   max-width: 75vw;
   margin: auto;
+  padding-top: 10px;
   border-bottom: 1px solid black;
 }
 
@@ -51,8 +52,8 @@ nav ul li {
 }
 
 nav a {
-
-	color: rgb(24, 31, 54);
+  color:black;
+  text-decoration: none;
 }
 
 body {
@@ -69,7 +70,13 @@ body {
   display: inline-block;
 }
 
-.projects:hover, .contact:hover, .about:hover{
+.projects:hover, .contact:hover, .about:hover, .resume:hover{
+  cursor: pointer;
+  background-color: rgba(43, 54, 155, 0.993);
+  color: white;
+}
+
+nav a:hover{
   cursor: pointer;
   background-color: rgba(43, 54, 155, 0.993);
   color: white;

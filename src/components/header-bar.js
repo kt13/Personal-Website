@@ -29,6 +29,11 @@ export class HeaderBar extends React.Component{
         <div className='nav-right'>
 
           <ul className='ul-right'>
+            <li className='resume'>
+              <a 
+                href=' https://drive.google.com/file/d/1b9cAlkp-G8aBn2Jqi0zHeLSeC0cyrnsB/view?ths=true'
+                target='_blank'>Resume</a>
+            </li>
             <li className='contact'>
               <Scroll type='id' element='contact'>Contact</Scroll>
             </li>
