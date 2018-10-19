@@ -1,17 +1,30 @@
 nav {
-	position: relative;
+	/* position: relative; */
 	height: 10%;
-  padding: 1em;
-  font-family: 'Lora', serif;
+  /* padding: 1em; */
+  /* font-size: 21px; */
+  /* border-bottom: 1px solid black; */
 }
 .ul-left {
   display: flex;
   padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.ul-right{
+  display: flex;
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .about, .projects, .contact{
-  padding: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   border-radius: 5%;
+  font-size: 22px;
 }
 
 .nav-box{
@@ -19,6 +32,7 @@ nav {
   justify-content: space-between;
   max-width: 75vw;
   margin: auto;
+  border-bottom: 1px solid black;
 }
 
 nav ul li {

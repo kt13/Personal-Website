@@ -15,7 +15,7 @@ export class HeaderBar extends React.Component{
 
           <div className='nav-left'>
             <li className='about'>
-              <Scroll type='id' element='about'>About</Scroll>
+              <Scroll type='id' element='about' offset={-50}>About</Scroll>
             </li>
 
             <li className='projects'>
