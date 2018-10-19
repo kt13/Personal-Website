@@ -14,7 +14,11 @@ export default function Contact (props){
           alt='Gmail Logo'
           height='61.25'
           width='70'>
-        </img><span className='contact-span'>ketsang12@gmail.com</span>
+        </img><a 
+          className='contact-a' 
+          href='mailto:ketsang12@gmail.com' 
+          target='_blank'  
+          rel="noopener noreferrer">ketsang12@gmail.com</a>
       </div>
       <div className='github contact-links'>
         <img 
@@ -22,7 +26,12 @@ export default function Contact (props){
           alt='GitHub Logo'
           height='61.25'
           width='70'>
-        </img><span className='contact-span'>kt13</span>
+        </img><a 
+          className='contact-a' 
+          href='https://github.com/kt13' 
+          target='_blank'
+         
+          rel="noopener noreferrer">kt13</a>
       </div>
       <div className='linkedin contact-links'>
         <img 
@@ -30,7 +39,11 @@ export default function Contact (props){
           alt='LinkedIn Logo'
           height='61.25'
           width='70'>
-        </img><span className='contact-span'>kevintsang1</span>
+        </img><a 
+          className='contact-a' 
+          href='https://www.linkedin.com/in/kevintsang1/' 
+          target='_blank'
+          rel="noopener noreferrer">kevintsang1</a>
       </div>
     </div>
   );

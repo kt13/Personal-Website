@@ -28,12 +28,16 @@ nav {
 }
 
 .nav-box{
+  color: white;
   display: flex;
   justify-content: space-between;
   max-width: 75vw;
   margin: auto;
   padding-top: 10px;
   border-bottom: 1px solid black;
+  background-color: #067BC2;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 nav ul li {
@@ -52,7 +56,7 @@ nav ul li {
 }
 
 nav a {
-  color:black;
+  color:white;
   text-decoration: none;
 }
 
@@ -72,13 +76,23 @@ body {
 
 .projects:hover, .contact:hover, .about:hover, .resume:hover{
   cursor: pointer;
-  background-color: rgba(43, 54, 155, 0.993);
+  background-color: rgb(7, 77, 121);
   color: white;
 }
 
 nav a:hover{
   cursor: pointer;
-  background-color: rgba(43, 54, 155, 0.993);
+  background-color: rgb(7, 77, 121);
   color: white;
 }
+/* nav a {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5%;
+  font-size: 22px;
+}
+.resume:hover{
+  color: white;
+} */
 

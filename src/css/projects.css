@@ -17,14 +17,14 @@
   border-radius: 3%;
 }
 
-
 .content {
   display: flex;
   justify-content: space-evenly;
 }
 
 .content-box{
-  border: 1px solid black;
+  border-bottom: 5px solid black;
+  padding-bottom: 10px;
 }
 
 .project-link {
@@ -35,5 +35,15 @@
 }
 
 .project-link:hover{
-  background-color: grey;
+  background-color: rgb(187, 186, 186);
+}
+
+.project-name {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  background-color: black;
+  display: inline-block;
+  padding: 2px;
 }

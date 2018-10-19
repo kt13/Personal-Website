@@ -1,12 +1,7 @@
 .about-me-content {
   margin: auto;
-  max-width: 75vw;
+  max-width: 65vw;
   padding: 20px;
-}
-
-h1, h2 {
-  text-align: left;
-  padding-left: 90px;
 }
 
 .about-me {

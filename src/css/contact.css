@@ -1,5 +1,16 @@
-.contact-span{
+.contact-a{
   padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.contact-a:hover{
+  cursor: pointer;
+  background-color: rgba(57, 67, 158, 0.993);
+  color: white;
 }
 
 img {

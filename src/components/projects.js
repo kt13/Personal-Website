@@ -1,12 +1,12 @@
 import React from 'react';
 import '../css/projects.css';
-import png from '../pictures/frontpage.png';
+import png from '../pictures/WeatherFM-FP.png';
 
 export default function Projects (props){
   return(
     <div className='projects-content' id='projects'>
       <div className='content-box'>
-        <h3>WeatherFM</h3>  
+        <h3 className='project-name'>WeatherFM</h3>  
         <div className='content'>
           <div className='float'>
             <p>React, Redux, MongoDB, NodeJS, Express, Mocha/Chai, Enzyme/Jest </p>

@@ -8,26 +8,27 @@
   margin: auto;
 } */
 
-h1, h2 {
+/* h1, h2 {
   text-align: left;
   padding-left: 90px;
   
-}
+} */
 
 .h2-main-page{
+  color: white;
+  font-size: 30px;
   text-align: center;
-  background-color: grey;
-  max-width: 73vw;
+  background-color: #067BC2;
+  max-width: 75vw;
   margin: auto;
 }
 
 .header-title{
-  padding-left: 90px;
   max-width: 80vw;
   margin: auto;
 }
 
-.header-title h3{
+.header-title h3, .h1-main-page{
   text-align: left;
   padding-left: 90px;
 }
