@@ -6,6 +6,7 @@
 
 .float {
   float: left;
+  text-align: center;
 }
 
 .links {
@@ -15,11 +16,12 @@
 .project-img {
   border: 1px solid black;
   border-radius: 3%;
+  float: right;
 }
 
 .content {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .content-box{

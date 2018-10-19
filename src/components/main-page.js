@@ -73,7 +73,7 @@ export class MainPage extends React.Component{
           <About />
           <h2 className='h2-main-page'>Projects</h2>
           <Projects />
-          <h2 className='h2-main-page'>Contact</h2>
+          <h2 className='h2-main-page'>Contacts</h2>
           <Contact />
         </div>
       </div>

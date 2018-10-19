@@ -35,7 +35,7 @@ export class HeaderBar extends React.Component{
                 target='_blank'>Resume</a>
             </li>
             <li className='contact'>
-              <Scroll type='id' element='contact'>Contact</Scroll>
+              <Scroll type='id' element='contact'>Contact Me</Scroll>
             </li>
           </ul>
 
