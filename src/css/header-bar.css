@@ -17,6 +17,8 @@ nav {
 .nav-box{
   display: flex;
   justify-content: space-between;
+  max-width: 75vw;
+  margin: auto;
 }
 
 nav ul li {

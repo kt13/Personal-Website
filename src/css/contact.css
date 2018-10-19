@@ -9,3 +9,8 @@ img {
 .contact-links{
   padding: 10px;
 }
+
+.conntact-content {
+  margin: auto;
+  max-width: 75vw;
+}

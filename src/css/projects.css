@@ -1,7 +1,27 @@
-.projects {
-  margin: 0;
+.projects-content {
+  margin: auto;
+  max-width: 75vw;
+}
+
+.float {
+  float: left;
 }
 
 .links {
   display: grid;
+}
+
+.project-img {
+  border: 1px solid black;
+  border-radius: 3%;
+}
+
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content-box{
+  border: 1px solid black;
 }
