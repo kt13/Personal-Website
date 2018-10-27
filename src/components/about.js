@@ -4,7 +4,7 @@ import '../css/about.css';
 export default function About (props){
   return(
     <div className='about-me-content' id='about'>
-      <p> 
+      <p className='about-p'> 
         I graduated from the University of Maryland - College Park with a BS in 
         Microbiology, looking to make a difference in the world of medicine. 
         However, growing up in the suburbs of Montgomery County, Maryland, I had always looked up to my mother 

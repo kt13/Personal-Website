@@ -7,7 +7,7 @@ import FoodForYouPng from '../pictures/FoodForYou.png';
 export default function Projects (props){
   return(
     <div className='projects-content' id='projects'>
-      <div className='content-box'>
+      <div className='content-box unique'>
         <h3 className='project-name'>WeatherFM</h3>  
         <div className='content'>
           <div className='float'>
@@ -30,48 +30,16 @@ export default function Projects (props){
                 target='_blank'
                 rel="noopener noreferrer">Server-Side Repository</a>
             </div>
+            <img 
+              className='project-img' 
+              src={WeatherPng} 
+              alt='WeatherFM Landing Page'
+              height='330' 
+              width='450'></img>
           </div>
-          <img 
-            className='project-img' 
-            src={WeatherPng} 
-            alt='WeatherFM Landing Page'
-            height='330' 
-            width='450'></img>
+          
         </div>
       </div>
-       
-      {/* <div className='content-box'>
-        <h3 className='project-name'>Sakura Learning</h3>  
-        <div className='content'>
-          <div className='float'>
-            <p>React, Redux, MongoDB, NodeJS, Express, Mocha/Chai, Enzyme/Jest </p>
-            <p>A Japanese Learning App built upon a spaced-repetition algorithm.</p> 
-            <div className='links'>
-              <a 
-                className='project-link'
-                href='https://spaced-rep-client-dev.herokuapp.com/' 
-                target='_blank'
-                rel="noopener noreferrer">Live</a>
-              <a 
-                className='project-link'
-                href='https://github.com/thinkful-ei22/kev-dev-spaced-rep-client' 
-                target='_blank'
-                rel="noopener noreferrer">Client-Side Repository</a>
-              <a 
-                className='project-link'
-                href='https://github.com/thinkful-ei22/kev-dev-spaced-rep-server' 
-                target='_blank'
-                rel="noopener noreferrer">Server-Side Repository</a>
-            </div>
-          </div>
-          <img 
-            className='project-img' 
-            src={SakuraLearningPng} 
-            alt='Sakura Learning Landing Page'
-            height='330' 
-            width='450'></img>
-        </div>
-      </div> */}
 
       <div className='content-box'>
         <h3 className='project-name'>Sakura Learning</h3>  
@@ -96,17 +64,18 @@ export default function Projects (props){
                 target='_blank'
                 rel="noopener noreferrer">Server-Side Repository</a>
             </div>
+            <img 
+              className='project-img' 
+              src={SakuraLearningPng} 
+              alt='Food For You Search Page'
+              height='330' 
+              width='450'></img>
           </div>
-          <img 
-            className='project-img' 
-            src={SakuraLearningPng} 
-            alt='Food For You Search Page'
-            height='330' 
-            width='450'></img>
         </div>
+          
       </div>
 
-      <div className='content-box'>
+      <div className='content-box unique-2'>
         <h3 className='project-name'>Food For You</h3>  
         <div className='content'>
           <div className='float'>
@@ -129,13 +98,14 @@ export default function Projects (props){
                 target='_blank'
                 rel="noopener noreferrer">Server-Side Repository</a>
             </div>
+            <img 
+              className='project-img' 
+              src={FoodForYouPng} 
+              alt='Food For You Search Page'
+              height='330' 
+              width='450'></img>
           </div>
-          <img 
-            className='project-img' 
-            src={FoodForYouPng} 
-            alt='Food For You Search Page'
-            height='330' 
-            width='450'></img>
+          
         </div>
       </div>
     </div>

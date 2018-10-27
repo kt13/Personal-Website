@@ -64,10 +64,9 @@ export class MainPage extends React.Component{
         <div className='main-page'>
           <div className='header-title'>
             <h1 className='h1-main-page-first'>{h1First}</h1>
-            <h2 className='h2-first'>{logoStacks1}</h2>
-            <h2 className='h2-second'>{logoStacks2}</h2>
+            <h2 className='h2-1'>{logoStacks1}</h2>
+            <h2 className='h2-2'>{logoStacks2}</h2>
             <h1 className='h1-main-page-second'>{h1Second}</h1>
-            {/* <h3>Full-Stack Developer</h3> */}
           </div>
           <h2 className='h2-main-page'>About Me</h2>
           <About />

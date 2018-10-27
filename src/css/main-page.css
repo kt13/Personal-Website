@@ -42,24 +42,36 @@
   margin: auto;
 }
 
-.header-title h2, .h1-main-page-first, .h1-main-page-second{
+/* .header-title h2, .h1-main-page-first, .h1-main-page-second{
   text-align: left;
   padding-left: 90px;
-}
+} */
 
 /* .header-title h2 {
   margin-left: 15px;
 } */
 
-.h2-first{
+.h2-1{
   margin-top: 0px;
   margin-bottom: 8px;
 }
 
-.h2-second{
+.h2-2{
   margin-top: 8px;
   margin-bottom: 8px;
 }
 
+@media only screen and (max-width: 720px){
+  .h1-main-page-first, .h2-1, .h2-2, .h1-main-page-second{
+    padding-left: 0px;
+    text-align: left;
+  }
+}
 
+@media only screen and (min-width: 721px){
+  .h1-main-page-first, .h2-1, .h2-2, .h1-main-page-second{
+    padding-left: 90px;
+    text-align: left;
+  }
+}
 

@@ -19,3 +19,19 @@
   list-style-position: inside;
   text-align: left;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+  .about-p{
+    max-width: 80vw;
+    margin:auto;
+  }
+  .ul-about{
+    columns: 1;
+    font-size: 1em; 
+    padding-inline-start: 0;
+  }
+  
+  .ul-about li {
+    margin-bottom: 1em;
+  }
+}
