@@ -84,7 +84,7 @@ export default function Projects (props){
             <div className='links'>
               <a 
                 className='project-link'
-                href='https://intense-journey-81653.herokuapp.com/' 
+                href='https://food-for-you.herokuapp.com/' 
                 target='_blank'
                 rel="noopener noreferrer">Live</a>
               <a 
