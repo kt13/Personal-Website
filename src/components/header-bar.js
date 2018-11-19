@@ -36,7 +36,7 @@ export class HeaderBar extends React.Component{
             <ul className='ul-right'>
               <li className='resume'>
                 <a 
-                  href='https://drive.google.com/file/d/1b9cAlkp-G8aBn2Jqi0zHeLSeC0cyrnsB/view?ths=true'
+                  href='https://drive.google.com/file/d/1UzQ_Dw07JklpwJ0gJ-sc_av0sGBOothk/view'
                   target='_blank'
                   rel='noopener noreferrer'>Resume</a>
               </li>
