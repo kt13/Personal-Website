@@ -20,10 +20,15 @@
   text-align: left;
 }
 
+.about-p{
+  font-size: 23px;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 768px){
   .about-p{
     max-width: 80vw;
     margin:auto;
+    font-size: 20px;
   }
   .ul-about{
     columns: 1;

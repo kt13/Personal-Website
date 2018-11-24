@@ -13,7 +13,7 @@ export default function About (props){
         Learning about all these technologies, I realized, is extremely exciting for me. 
         All these languages and technologies to explore... to delve... a whole new world of knowledge and excitment has opened up. </p>
         
-      <p>I am thoroughly hooked.</p>
+      <p className='about-p'>I am thoroughly entranced.</p>
      
       <h3 className='h3-about'>My Skills</h3>
       <ul className='ul-about'>
