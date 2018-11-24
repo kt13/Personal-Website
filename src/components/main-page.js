@@ -10,7 +10,7 @@ export class MainPage extends React.Component{
     const h1First = 'Kevin Tsang = {';
     const h1Second = '};';
     const logoStacks1 = ' title: Full-Stack Developer,';
-    const logoStacks2 = 'technologies: [MongoDB, Express, React, NodeJS, Postgres QL, Python]';
+    const logoStacks2 = 'technologies: [MongoDB, Express, React, Node.js, PostgreSQL, Python]';
     return(
       <div>
         <div className='main-page'>
